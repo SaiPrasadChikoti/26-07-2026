@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 import testData from '../../data/variables.json';
-test('File-1 removed', async ({ page, context }) => {
+test('File-1 UPDATED', async ({ page, context }) => {
 
   // Step 1: Open 'https://qa.rygen.com/'
   await page.goto('https://qa.rygen.com/');
